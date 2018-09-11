@@ -23,8 +23,8 @@ Note: remember that the printed value of pi will be an estimate!
 """
 import math
 
-a = int(input('I will estimate pi. How many terms should I use?') )
-b = int(input('How many descimal places should I use in the result?') )
+a = int(input('I will estimate pi. How many terms should I use? ') )
+b = int(input('How many descimal places should I use in the result? ') )
 
 p = 4*sum([((-1.0)**k)/(2*k+1) for k in range (0,a)])
 
